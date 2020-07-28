@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #5F4F94;
+    padding: 20px;
+}
+.content-cabecera{
+    max-width: 400px;
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+    margin: auto;
+}
+.content-logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 4px solid white;
+    margin: auto;
+}
+.content-logo img{
+    width: 100%;
+    height: 100%;
+}
+.content-cabecera h1{
+    font-weight: 100;
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.content-cabecera p{
+    margin-top: 40px;
+    color: whitesmoke;
+}
+
+main{
+    max-width: 1000px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    margin-top: 5px;
+    margin: auto;
+    
+}
+
+
+
+/*NAV*/
+
+.header-menu{
+    margin: auto;
+    text-align: center;
+}
+
+#btn-menu{
+    display: none;
+}
+.header-menu label{
+    display: block;
+    width: 3rem;
+    height: 20px;
+    padding: 1rem;
+    display: none;
+
+}
+.header-menu a:hover{
+    cursor: pointer;
+    background: teal;
+    color: rosybrown;
+}
+
+.menu ul{
+    list-style: none;
+    padding: 0;
+    display:block;
+    display: flex;
+    justify-content: center;
+ 
+
+
+}
+
+.menu li a{
+    font-size: 0.8em;
+    margin: auto;
+    display: block;
+    padding: 13px;
+    width: 90px;
+    background-color: rosybrown;
+    margin: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: teal;
+    text-align: center
+    
+}
+
+
+
+/*content1*/
+
+
+
+.content1{
+    width: 100%;
+    
+
+}
+.img-content1{
+    width: 100%;
+    text-align: center;
+    /* transition: transform 0.2s; */
+}
+.img-content1 img{
+    width: 300px;
+}
+/* .img-content1:hover{
+    transform: scale(1.5);
+} */
+.h1-content1{
+    width: 100%;
+    text-align: center;
+}
+.p-content1{
+    width: 100%;
+    text-align: left;
+}
+.h1-content1 h1{
+    margin-top: 10px;
+    font-weight: 100;
+    color: teal;
+    margin-bottom: 10px;
+}
+.p-content1 p{
+    margin-top: 20px;
+    color: violet;
+    letter-spacing: 1px;
+    text-align: left;
+    margin: 10px;
+}
+.button-leer{
+    width: 200px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 3px;
+    display: block;
+    text-decoration: none;
+    background-color: rosybrown;
+    color: teal;
+    text-align: center;
+}
+.button-leer:hover{
+    cursor: pointer;
+    background: teal;
+    color: rosybrown;
+}
+
+/*CONTENT2*/
+
+.content2{
+    width: 100%;
+    margin-top: 30px;
+
+}
+.img-content2{
+    width: 100%;
+    text-align: center;
+}
+.img-content2 img{
+    width: 300px;
+}
+.h1-content2{
+    width: 100%;
+    text-align: center;
+}
+.p-content2{
+    width: 100%;
+    text-align: center;
+}
+.h1-content2 h1{
+    margin-top: 40px;
+    font-weight: 100;
+    color: teal;
+    margin-bottom: 10px;
+}
+.p-content2 p{
+    margin-top: 20px;
+    color: violet;
+    letter-spacing: 1px;
+    text-align: left;
+    margin: 10px;
+}
+
+/*FOOTER*/
+footer{
+
+    max-width: 300px;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 10px;
+    margin-left: initial;
+    
+}
+footer li{
+    list-style: none;
+    margin-bottom: 3px;
+    letter-spacing: 1px;
+    margin-left: 5px;
+}
+.logo-redes{
+    width: 20px;
+    margin-right: 5px;
+    margin-top: 2px;
+}
+.boton-redes{
+    text-decoration: none;
+    color: teal;
+    text-align: center;
+}
+footer h2{
+    margin-top: 40px;
+    font-weight: 100;
+    color: teal;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.diseñado{
+    font-size: 12px;
+    font-weight: 1;
+    text-align: right;
+}
+.diseñado a{
+    text-decoration: none;
+    color: white;
+}
+
+/* @media screen and (in-width: 400px){
+    .header-menu{
+        margin-left: 1px;       
+
+    }
+
+} */
