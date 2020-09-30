@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
 }
 body{
     background-color: #5F4F94;
@@ -16,6 +17,7 @@ body{
     margin: auto;
 }
 .content-logo{
+    
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -28,18 +30,23 @@ body{
     height: 100%;
 }
 .content-cabecera h1{
-    font-weight: 100;
+    font-family: 'satisfy',cursive;
+    font-weight: 100px;
+    font-size: 50px;
     color: white;
-    margin-top: 20px;
-    margin-bottom: 15px;
+    margin-top: 10px;
 }
 .content-cabecera p{
-    margin-top: 40px;
+    margin-top: 20px;
     color: whitesmoke;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 5px;
 }
 
 main{
-    max-width: 1000px;
+    max-width: 90%;
     background-color: whitesmoke;
     border-radius: 8px;
     margin-top: 5px;
@@ -56,9 +63,7 @@ main{
     text-align: center;
 }
 
-#btn-menu{
-    display: none;
-}
+
 .header-menu label{
     display: block;
     width: 3rem;
@@ -85,11 +90,11 @@ main{
 }
 
 .menu li a{
-    font-size: 0.8em;
+    font-size: 1.3em;
     margin: auto;
     display: block;
     padding: 13px;
-    width: 90px;
+    width: 160px;
     background-color: rosybrown;
     margin: 10px;
     border-radius: 10px;
@@ -98,6 +103,8 @@ main{
     text-align: center
     
 }
+
+
 
 
 
@@ -124,6 +131,7 @@ main{
 .h1-content1{
     width: 100%;
     text-align: center;
+    
 }
 .p-content1{
     width: 100%;
@@ -131,9 +139,10 @@ main{
 }
 .h1-content1 h1{
     margin-top: 10px;
-    font-weight: 100;
+    font-weight: 1px;
     color: teal;
     margin-bottom: 10px;
+    font-family: 'PT Sans', sans-serif;
 }
 .p-content1 p{
     margin-top: 20px;
@@ -141,6 +150,7 @@ main{
     letter-spacing: 1px;
     text-align: left;
     margin: 10px;
+    font-size: 20px;
 }
 .button-leer{
     width: 200px;
@@ -240,12 +250,32 @@ footer h2{
 .diseñado a{
     text-decoration: none;
     color: white;
+    font-family: 'Megrim', cursive;
 }
 
-/* @media screen and (in-width: 400px){
-    .header-menu{
-        margin-left: 1px;       
 
+
+@media (max-width:700px){
+    .menu li a{
+        font-size: 12px;
+        margin: auto;
+        display: block;
+        padding: 13px;
+        width: 80px;
+        background-color: rosybrown;
+        margin: 4px;
+        border-radius: 10px;
+        text-decoration: none;
+        color: teal;
+        text-align: center
+        
     }
-
-} */
+    .img-content1{
+        width: auto;
+        text-align: center;
+        /* transition: transform 0.2s; */
+    }
+    .img-content1 img{
+        width: 95%;
+    }
+}
