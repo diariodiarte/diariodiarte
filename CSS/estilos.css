@@ -46,7 +46,7 @@ body{
 }
 
 main{
-    max-width: 90%;
+    max-width: 80%;
     background-color: whitesmoke;
     border-radius: 8px;
     margin-top: 5px;
@@ -277,5 +277,13 @@ footer h2{
     }
     .img-content1 img{
         width: 95%;
+    }
+    main{
+        max-width: 100%;
+        background-color: whitesmoke;
+        border-radius: 8px;
+        margin-top: 5px;
+        margin: auto;
+        
     }
 }
